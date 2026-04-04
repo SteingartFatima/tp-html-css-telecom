@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.info {
+    padding: 40px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.imagen img {
+    width: 350px;
+    border-radius: 8px;
+}
+
+.texto h1 {
+    color: #1a73e8;
+}
+
+.texto p {
+    color: #555;
+    line-height: 1.5;
+}
