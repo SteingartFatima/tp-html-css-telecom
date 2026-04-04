@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.contenedor {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #1a73e8;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}

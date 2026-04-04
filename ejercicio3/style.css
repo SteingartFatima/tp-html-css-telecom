@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.contenedor {
+    width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #1a73e8;
+    text-align: center;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    background-color: #f9fafc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #1a73e8;
+}
+
+strong {
+    display: block;
+    color: #333;
+}
+
+span {
+    color: #555;
+    font-size: 14px;
+}

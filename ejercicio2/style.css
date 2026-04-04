@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.ficha {
+    width: 450px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ficha h1 {
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+.info {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.info p {
+    margin: 6px 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
