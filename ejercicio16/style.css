@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9eef3;
+}
+
+.contenedor {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #1f3c5a;
+  margin-bottom: 30px;
+}
+
+.nodo {
+  width: 180px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.internet { background-color: #3498db; }
+.router { background-color: #2ecc71; }
+.firewall { background-color: #e67e22; }
+.switch { background-color: #9b59b6; }
+.servidor { background-color: #34495e; }
+.pc { background-color: #16a085; }
+.ap { background-color: #e74c3c; }
+
+.linea {
+  width: 4px;
+  height: 30px;
+  background-color: #555;
+  margin: 0 auto;
+}
+
+.linea-horizontal {
+  width: 720px;
+  height: 4px;
+  background-color: #555;
+  margin: 0 auto;
+}
+
+.fila {
+  width: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rama {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linea-vertical {
+  width: 4px;
+  height: 40px;
+  background-color: #555;
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1f3c5a;
+  margin-bottom: 30px;
+}
+
+.ticket {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.ticket h2 {
+  margin-top: 0;
+}
+
+.alta {
+  border-left: 6px solid #e74c3c;
+}
+
+.media {
+  border-left: 6px solid #f1c40f;
+}
+
+.baja {
+  border-left: 6px solid #2ecc71;
+}

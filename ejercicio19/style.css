@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1f3c5a;
+  margin-bottom: 30px;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 220px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+  color: #0077b6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 90%;
+  }
+}
